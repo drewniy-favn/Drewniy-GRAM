@@ -27,7 +27,7 @@ jint JNI_OnLoad(JavaVM *vm, void *reserved) {
 	}
 
     
-    }
+    
 
     if (videoOnJNILoad(vm, env) != JNI_TRUE) {
         return -1;
